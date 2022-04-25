@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rhein-vm/workspace/ico_tool/include 
+CXX_INCLUDES = -I/home/rhein-vm/workspace/ico-creator/include 
 

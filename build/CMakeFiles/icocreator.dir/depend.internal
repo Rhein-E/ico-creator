@@ -35,8 +35,9 @@ CMakeFiles/icocreator.dir/src/ico.cpp.o
  ../include/opencv2/core/vsx_utils.hpp
  ../include/opencv2/highgui.hpp
  ../include/opencv2/imgcodecs.hpp
+ ../include/opencv2/opencv_modules.hpp
  ../include/opencv2/videoio.hpp
- /home/rhein-vm/workspace/ico_tool/src/ico.cpp
+ /home/rhein-vm/workspace/ico-creator/src/ico.cpp
 CMakeFiles/icocreator.dir/src/main.cpp.o
  ../include/basic.h
  ../include/ico.h
@@ -71,5 +72,6 @@ CMakeFiles/icocreator.dir/src/main.cpp.o
  ../include/opencv2/core/vsx_utils.hpp
  ../include/opencv2/highgui.hpp
  ../include/opencv2/imgcodecs.hpp
+ ../include/opencv2/opencv_modules.hpp
  ../include/opencv2/videoio.hpp
- /home/rhein-vm/workspace/ico_tool/src/main.cpp
+ /home/rhein-vm/workspace/ico-creator/src/main.cpp

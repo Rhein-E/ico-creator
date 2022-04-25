@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rhein-vm/workspace/ico_tool/src/ico.cpp" "/home/rhein-vm/workspace/ico_tool/build/CMakeFiles/icocreator.dir/src/ico.cpp.o"
-  "/home/rhein-vm/workspace/ico_tool/src/main.cpp" "/home/rhein-vm/workspace/ico_tool/build/CMakeFiles/icocreator.dir/src/main.cpp.o"
+  "/home/rhein-vm/workspace/ico-creator/src/ico.cpp" "/home/rhein-vm/workspace/ico-creator/build/CMakeFiles/icocreator.dir/src/ico.cpp.o"
+  "/home/rhein-vm/workspace/ico-creator/src/main.cpp" "/home/rhein-vm/workspace/ico-creator/build/CMakeFiles/icocreator.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

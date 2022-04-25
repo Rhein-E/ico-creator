@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/icocreator.dir/src/ico.cpp.o CMakeFiles/icocreator.dir/src/main.cpp.o  -o icocreator  -Wl,-rpath,/usr/local/lib /usr/local/lib/libopencv_highgui.so /usr/local/lib/libopencv_core.so /usr/local/lib/libopencv_imgcodecs.so 
+/usr/bin/c++     CMakeFiles/icocreator.dir/src/ico.cpp.o CMakeFiles/icocreator.dir/src/main.cpp.o  -o icocreator  -Wl,-rpath,/home/rhein-vm/workspace/ico-creator/lib ../lib/libopencv_highgui.so ../lib/libopencv_core.so ../lib/libopencv_imgcodecs.so 

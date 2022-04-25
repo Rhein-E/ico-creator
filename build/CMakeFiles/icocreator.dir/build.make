@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rhein-vm/workspace/ico_tool
+CMAKE_SOURCE_DIR = /home/rhein-vm/workspace/ico-creator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rhein-vm/workspace/ico_tool/build
+CMAKE_BINARY_DIR = /home/rhein-vm/workspace/ico-creator/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/icocreator.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/icocreator.dir/flags.make
 
 CMakeFiles/icocreator.dir/src/ico.cpp.o: CMakeFiles/icocreator.dir/flags.make
 CMakeFiles/icocreator.dir/src/ico.cpp.o: ../src/ico.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhein-vm/workspace/ico_tool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/icocreator.dir/src/ico.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icocreator.dir/src/ico.cpp.o -c /home/rhein-vm/workspace/ico_tool/src/ico.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhein-vm/workspace/ico-creator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/icocreator.dir/src/ico.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icocreator.dir/src/ico.cpp.o -c /home/rhein-vm/workspace/ico-creator/src/ico.cpp
 
 CMakeFiles/icocreator.dir/src/ico.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icocreator.dir/src/ico.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhein-vm/workspace/ico_tool/src/ico.cpp > CMakeFiles/icocreator.dir/src/ico.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhein-vm/workspace/ico-creator/src/ico.cpp > CMakeFiles/icocreator.dir/src/ico.cpp.i
 
 CMakeFiles/icocreator.dir/src/ico.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icocreator.dir/src/ico.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhein-vm/workspace/ico_tool/src/ico.cpp -o CMakeFiles/icocreator.dir/src/ico.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhein-vm/workspace/ico-creator/src/ico.cpp -o CMakeFiles/icocreator.dir/src/ico.cpp.s
 
 CMakeFiles/icocreator.dir/src/main.cpp.o: CMakeFiles/icocreator.dir/flags.make
 CMakeFiles/icocreator.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhein-vm/workspace/ico_tool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/icocreator.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icocreator.dir/src/main.cpp.o -c /home/rhein-vm/workspace/ico_tool/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhein-vm/workspace/ico-creator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/icocreator.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icocreator.dir/src/main.cpp.o -c /home/rhein-vm/workspace/ico-creator/src/main.cpp
 
 CMakeFiles/icocreator.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icocreator.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhein-vm/workspace/ico_tool/src/main.cpp > CMakeFiles/icocreator.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhein-vm/workspace/ico-creator/src/main.cpp > CMakeFiles/icocreator.dir/src/main.cpp.i
 
 CMakeFiles/icocreator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icocreator.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhein-vm/workspace/ico_tool/src/main.cpp -o CMakeFiles/icocreator.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhein-vm/workspace/ico-creator/src/main.cpp -o CMakeFiles/icocreator.dir/src/main.cpp.s
 
 # Object files for target icocreator
 icocreator_OBJECTS = \
@@ -94,11 +94,11 @@ icocreator_EXTERNAL_OBJECTS =
 icocreator: CMakeFiles/icocreator.dir/src/ico.cpp.o
 icocreator: CMakeFiles/icocreator.dir/src/main.cpp.o
 icocreator: CMakeFiles/icocreator.dir/build.make
-icocreator: /usr/local/lib/libopencv_highgui.so
-icocreator: /usr/local/lib/libopencv_core.so
-icocreator: /usr/local/lib/libopencv_imgcodecs.so
+icocreator: ../lib/libopencv_highgui.so
+icocreator: ../lib/libopencv_core.so
+icocreator: ../lib/libopencv_imgcodecs.so
 icocreator: CMakeFiles/icocreator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhein-vm/workspace/ico_tool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable icocreator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhein-vm/workspace/ico-creator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable icocreator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/icocreator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +111,6 @@ CMakeFiles/icocreator.dir/clean:
 .PHONY : CMakeFiles/icocreator.dir/clean
 
 CMakeFiles/icocreator.dir/depend:
-	cd /home/rhein-vm/workspace/ico_tool/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhein-vm/workspace/ico_tool /home/rhein-vm/workspace/ico_tool /home/rhein-vm/workspace/ico_tool/build /home/rhein-vm/workspace/ico_tool/build /home/rhein-vm/workspace/ico_tool/build/CMakeFiles/icocreator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhein-vm/workspace/ico-creator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhein-vm/workspace/ico-creator /home/rhein-vm/workspace/ico-creator /home/rhein-vm/workspace/ico-creator/build /home/rhein-vm/workspace/ico-creator/build /home/rhein-vm/workspace/ico-creator/build/CMakeFiles/icocreator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/icocreator.dir/depend
 
