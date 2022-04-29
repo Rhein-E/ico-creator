@@ -12,11 +12,18 @@ ADD_EXECUTABLE(icocreator ${SRC})
 TARGET_INCLUDE_DIRECTORIES(icocreator
     PRIVATE
         "${PROJECT_SOURCE_DIR}/include"
+        "${OpenCV_INCLUDE_DIRS}"
 )
 
-TARGET_LINK_LIBRARIES(icocreator
-    PRIVATE
-        "/usr/local/lib/libopencv_highgui.so"
-        "/usr/local/lib/libopencv_core.so"
-        "/usr/local/lib/libopencv_imgcodecs.so"
-)
+FIND_PACKAGE(OpenCV REQUIRED)
+# MESSAGE(STATUS "OpenCV_INCLUDE_DIRS="${OpenCV_INCLUDE_DIRS})
+# MESSAGE(STATUS "OpenCV_LIBRARIES="${OpenCV_LIBRARIES})
+
+IF(OpenCV_FOUND)
+    TARGET_LINK_LIBRARIES(icocreator
+        PRIVATE
+            ${OpenCV_LIBRARIES}
+    )
+ELSE()
+    MESSAGE(FATAL_ERROR " opencv not found!")
+ENDIF()

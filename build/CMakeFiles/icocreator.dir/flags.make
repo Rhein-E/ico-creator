@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rhein-vm/workspace/ico-creator/include 
+CXX_INCLUDES = -I/home/rhein-vm/workspace/ico-creator/include -I/home/rhein-vm/workspace/ico-creator -isystem /usr/local/include/opencv4 
 

@@ -94,9 +94,20 @@ icocreator_EXTERNAL_OBJECTS =
 icocreator: CMakeFiles/icocreator.dir/src/ico.cpp.o
 icocreator: CMakeFiles/icocreator.dir/src/main.cpp.o
 icocreator: CMakeFiles/icocreator.dir/build.make
-icocreator: ../lib/libopencv_highgui.so
-icocreator: ../lib/libopencv_core.so
-icocreator: ../lib/libopencv_imgcodecs.so
+icocreator: /usr/local/lib/libopencv_highgui.so.4.5.5
+icocreator: /usr/local/lib/libopencv_ml.so.4.5.5
+icocreator: /usr/local/lib/libopencv_objdetect.so.4.5.5
+icocreator: /usr/local/lib/libopencv_photo.so.4.5.5
+icocreator: /usr/local/lib/libopencv_stitching.so.4.5.5
+icocreator: /usr/local/lib/libopencv_video.so.4.5.5
+icocreator: /usr/local/lib/libopencv_videoio.so.4.5.5
+icocreator: /usr/local/lib/libopencv_imgcodecs.so.4.5.5
+icocreator: /usr/local/lib/libopencv_calib3d.so.4.5.5
+icocreator: /usr/local/lib/libopencv_dnn.so.4.5.5
+icocreator: /usr/local/lib/libopencv_features2d.so.4.5.5
+icocreator: /usr/local/lib/libopencv_flann.so.4.5.5
+icocreator: /usr/local/lib/libopencv_imgproc.so.4.5.5
+icocreator: /usr/local/lib/libopencv_core.so.4.5.5
 icocreator: CMakeFiles/icocreator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhein-vm/workspace/ico-creator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable icocreator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/icocreator.dir/link.txt --verbose=$(VERBOSE)
